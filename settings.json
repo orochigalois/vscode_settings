@@ -1,0 +1,29 @@
+{
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#FFFF00",
+        "editor.selectionHighlightBackground": "#FFFF00",
+    },
+    "editor.wordWrap": "on",
+    "window.zoomLevel": 0,
+    "git.autofetch": true,
+    "php.executablePath": "/Applications/MAMP/bin/php/php7.1.1/bin/php",
+    "highlight-matching-tag.leftStyle": {
+        "borderWidth": "10 10 10 10px",
+        "borderStyle": "dotted",
+        "borderColor": "white",
+        "borderRadius": "5px"
+    },
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.enableSmartCommit": true,
+    "files.associations": {
+        "*.module": "php",
+        "*.inc": "php",
+        //"*.php": "html"
+    },
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+    "editor.tabCompletion": true
+}
