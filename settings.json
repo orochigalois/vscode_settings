@@ -25,5 +25,6 @@
     },
     "prettier.tabWidth": 4,
     "editor.formatOnSave": true,
-    "editor.tabCompletion": true
+    "editor.tabCompletion": true,
+    "workbench.editor.enablePreview": false
 }
