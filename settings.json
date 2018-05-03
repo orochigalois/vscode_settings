@@ -21,7 +21,7 @@
     "files.associations": {
         "*.module": "php",
         "*.inc": "php",
-        //"*.php": "html"
+        "*.php": "html"
     },
     "prettier.tabWidth": 4,
     "editor.formatOnSave": true,
