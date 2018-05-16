@@ -7,7 +7,7 @@
     "editor.wordWrap": "on",
     "window.zoomLevel": 0,
     "git.autofetch": true,
-    "php.executablePath": "/Applications/MAMP/bin/php/php7.1.1/bin/php",
+    "php.executablePath": "/Applications/MAMP/bin/php/php7.2.1/bin/php",
     "highlight-matching-tag.leftStyle": {
         "borderWidth": "10 10 10 10px",
         "borderStyle": "dotted",
@@ -21,9 +21,8 @@
     "files.associations": {
         "*.module": "php",
         "*.inc": "php",
-        "*.php": "html"
+        // "*.php": "html"
     },
-    "prettier.tabWidth": 4,
     "editor.formatOnSave": true,
     "editor.tabCompletion": true,
     "workbench.editor.enablePreview": false

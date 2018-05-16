@@ -26,7 +26,7 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "/*bs4 breakpoint when screen width in range [768px,1199px]*/\n@media screen and (min-width: \\$screen-md) and (max-width: \\$screen-lg-max) \n{\n\t$0\n}"
+            "snippet": "/*bs4 breakpoint when screen width is in range [768px,1199px]*/\n@media screen and (min-width: \\$screen-md) and (max-width: \\$screen-lg-max) \n{\n\t$0\n}"
         }
     },
     {
@@ -34,15 +34,28 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "/*bs4 breakpoint when screen width in range [576px,767px]*/\n@media screen and (min-width: \\$screen-sm) and (max-width: \\$screen-sm-max) \n{\n\t$0\n}"
+            "snippet": "/*bs4 breakpoint when screen width is in range [576px,767px]*/\n@media screen and (min-width: \\$screen-sm) and (max-width: \\$screen-sm-max) \n{\n\t$0\n}"
         }
     },
     {
-        "key": "cmd+k 5",
+        "key": "cmd+k cmd+5",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "/*bs4 breakpoint when screen width in range [0,575px]*/\n@media screen and (max-width: \\$screen-xs-max) \n{\n\t$0\n}"
+            "snippet": "/*bs4 breakpoint when screen width is in range [0,767px]*/\n@media screen and (max-width: \\$screen-sm-max) \n{\n\t$0\n}"
         }
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "!important"
+        }
+    },
+    {
+        "key": "alt+cmd+;",
+        "command": "bookmarks.clear",
+        "when": "editorTextFocus"
     }
 ]
