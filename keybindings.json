@@ -6,7 +6,7 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "cmd+k 1",
+        "key": "cmd+k cmd+1",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
@@ -14,7 +14,7 @@
         }
     },
     {
-        "key": "cmd+k 2",
+        "key": "cmd+k cmd+2",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
@@ -30,7 +30,7 @@
         }
     },
     {
-        "key": "cmd+k 4",
+        "key": "cmd+k cmd+4",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
@@ -42,7 +42,7 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "/*bs4 breakpoint when screen width is in range [0,767px]*/\n@media screen and (max-width: \\$screen-sm-max) \n{\n\t$0\n}"
+            "snippet": "@media screen and (max-width: 500px) \n{\n\t$0\n}"
         }
     },
     {

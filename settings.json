@@ -1,4 +1,6 @@
 {
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "search.useIgnoreFiles": true,
     "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
     "workbench.colorCustomizations": {
         "editor.selectionBackground": "#FFFF00",
@@ -23,7 +25,9 @@
         "*.inc": "php",
         // "*.php": "html"
     },
-    "editor.formatOnSave": true,
+    // "editor.formatOnSave": true,
     "editor.tabCompletion": true,
-    "workbench.editor.enablePreview": false
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    // "workbench.editor.enablePreview": false
 }
