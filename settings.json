@@ -30,4 +30,5 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     // "workbench.editor.enablePreview": false
+    "window.title": "${activeEditorLong}${separator}${rootName}",
 }
