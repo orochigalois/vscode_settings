@@ -10,12 +10,6 @@
     "window.zoomLevel": 0,
     "git.autofetch": true,
     "php.executablePath": "/Applications/MAMP/bin/php/php7.2.1/bin/php",
-    "highlight-matching-tag.leftStyle": {
-        "borderWidth": "10 10 10 10px",
-        "borderStyle": "dotted",
-        "borderColor": "white",
-        "borderRadius": "5px"
-    },
     "git.confirmSync": false,
     "extensions.ignoreRecommendations": true,
     "liveServer.settings.donotShowInfoMsg": true,

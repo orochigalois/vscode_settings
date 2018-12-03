@@ -42,7 +42,7 @@
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
         "args": {
-            "snippet": "@media screen and (max-width:\\$screen-xs-max) \n{\n\t$0\n}"
+            "snippet": "@media screen and (max-width:\\$screen-sm-max) \n{\n\t$0\n}"
         }
     },
     {
