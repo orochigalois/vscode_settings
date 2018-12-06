@@ -25,4 +25,27 @@
     "explorer.confirmDelete": false,
     // "workbench.editor.enablePreview": false
     "window.title": "${activeEditorLong}${separator}${rootName}",
+
+    "beautify.language": {
+        "js": {
+          "type": [
+            "javascript",
+            "json",
+            "jsonc"
+          ],
+          "filename": [
+            ".jshintrc",
+            ".jsbeautifyrc"
+          ]
+        },
+        "css": [
+          "css",
+          "scss"
+        ],
+        "html": [
+          "htm",
+          "html",
+          "php"
+        ]
+      }
 }

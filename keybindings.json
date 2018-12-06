@@ -46,6 +46,14 @@
         }
     },
     {
+        "key": "cmd+k cmd+6",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "@media screen and (max-width:\\$screen-xs-max) \n{\n\t$0\n}"
+        }
+    },
+    {
         "key": "cmd+k cmd+i",
         "command": "editor.action.insertSnippet",
         "when": "editorTextFocus",
